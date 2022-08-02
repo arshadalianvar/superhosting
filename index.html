@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>IT Services</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="card">
+  			<div class="card-body">
+				<h1 class="card-title">SuperHosting</h1>
+				<div class="card-text">
+					<form method="POST" action="process.php">
+						<div class="form-group">
+							<label for="username">Username:</label>
+							<input class="form-control" required type="text" name="username">
+						</div>
+						<div class="form-group">
+							<label for="email">Email:</label>
+							<input class="form-control" type="email" name="email">
+						</div>
+						<div class="form-group">
+							<label for="password">Password:</label>
+							<input class="form-control" required type="password" name="password">
+						</div>
+						<div class="form-group">
+							<label for="passwordRepeat">Repeat:</label>
+							<input class="form-control" required type="password" name="passwordRepeat">
+						</div>
+						<input class="btn btn-primary" type="submit" value="Create Account">
+					</form>
+				</div>
+			</div>
+		</div>
+		<script>
+			// parse the current URL
+			let url = new URL(window.location.href);
+
+			// attempt to extract the success message
+			let success = url.searchParams.get('success');
+
+			// attempt to extract the error message
+			let error = url.searchParams.get('error');
+			
+			// if success message is there, then...
+			if (success) 
+			{
+			
+				// show the following message in the page
+				document.write('<br><br><div class="alert alert-success" role="alert">Success!</div>');
+			
+			// else if error message is there, then...
+			} else if (error) 
+			{
+				// show the following message in the page
+				document.write('<br><br><div class="alert alert-danger" role="alert">Error: ' + error + '</div>');
+			}
+		</script>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</body>
+</html>

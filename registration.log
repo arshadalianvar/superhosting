@@ -1,0 +1,43 @@
+2020-01-30T12:57:18+00:00
+Shell (sudo /usr/sbin/useradd -c "Created using PHP on 2020-01-30 12-57-18" -G clients -k /home/rdinita/skel -m -p 8fhoDiHw.bQUM rdinita2)
+Result: 
+Exit Code: 92020-01-30T12:57:58+00:00
+Shell (sudo /usr/sbin/useradd -c "Created using PHP on 2020-01-30 12-57-58" -G clients -k /home/rdinita/skel -m -p 5QXdwa8E47/6c rdinita2)
+Result: 
+Exit Code: 9
+
+2020-01-30T12:58:00+00:00
+Shell (sudo /usr/sbin/useradd -c "Created using PHP on 2020-01-30 12-58-00" -G clients -k /home/rdinita/skel -m -p MgMfPOBQ9qcBQ rdinita2)
+Result: 
+Exit Code: 9
+
+2020-01-30T13:01:47+00:00
+Shell (sudo /usr/sbin/useradd -c "Created using PHP on 2020-01-30 13-01-47" -G clients -k /home/rdinita/skel -m -p FMvv1gDWpkE3U rdinita2)
+Result: 
+Exit Code: 9
+
+2020-02-13T10:30:18+00:00
+Shell (sudo /usr/sbin/useradd -c "Created using PHP on 2020-02-13 10-30-18" -G clients -k /home/rdinita/skel -m -p 0agLtyr.hLoao rdinita123)
+Result: 
+Exit Code: 0
+
+2020-02-13T10:31:32+00:00
+Shell (sudo /usr/sbin/useradd -c "Created using PHP on 2020-02-13 10-31-32" -G clients -k /home/rdinita/skel -m -p D5wCg1l5u6sfQ rdinita123)
+Result: 
+Exit Code: 9
+
+2020-02-13T10:32:02+00:00
+Shell (sudo /usr/sbin/useradd -c "Created using PHP on 2020-02-13 10-32-02" -G clients -k /home/rdinita/skel -m -p m3z2CCDd02QMU rdinita1234)
+Result: 
+Exit Code: 0
+
+2020-02-13T10:36:44+00:00
+Shell (sudo /usr/sbin/useradd -c "Created using PHP on 2020-02-13 10-36-44" -G clients -k /home/rdinita/skel -m -p 0zxt4sW2f4z7Q rdinita11)
+Result: 
+Exit Code: 0
+
+2020-02-13T10:38:09+00:00
+Shell (sudo /usr/sbin/useradd -c "Created using PHP on 2020-02-13 10-38-09" -G clients -k /home/rdinita/skel -m -p KukVRDLi/B046 rdinita12)
+Result: 
+Exit Code: 0
+
